@@ -5,4 +5,4 @@ from django.shortcuts import render
 def newf(request):
     return HttpResponse("WElCOME TO THE APP TODO-ADMIN")
 def homepage(request):
-    return render(request,"homework.html")
+    return render(request,"index.html")
