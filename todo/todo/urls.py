@@ -22,5 +22,6 @@ urlpatterns = [
     path('add-tomeet/',add_tomeet,name='add-tomeet'),
     path('', views.habits),
     path('create/', views.create),
+    path("delete-todo/<id>/",delete_todo,name="delete-todo")
     ] + static (settings.STATIC_URL, document_root=settings.STATIC_ROOT)\
     + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
