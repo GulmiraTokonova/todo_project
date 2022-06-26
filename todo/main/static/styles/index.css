@@ -57,7 +57,7 @@ color: #757575;
 .todo_item.done h4, .todo_item.done p, .todo_item.done span{
     color: #757575;
 }
-.todo_item.doen img{
+.todo_item.done img{
     opacity: 0.5;
 }
 
@@ -76,6 +76,11 @@ border:2px solid #fad66a;
     font-size: 18px;
     font-family: sans-serif;
 }
+
+.todo_item_header h4 a{
+    text-decoration: none;
+}
+
 .todo_item_footer {
     display: flex;
     justify-content: space-between;
