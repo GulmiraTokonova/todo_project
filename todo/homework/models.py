@@ -9,5 +9,10 @@ class ToMeet(models.Model):
     comment=models.CharField(max_length=200)
     is_closed=models.BooleanField(default=False)
     is_favorite=models.BooleanField(default=False)
-    
-    
+
+ 
+class Habits(models.Model):
+    name = models.CharField(max_length=20)
+    done_for_today = models.CharField(max_length=200)
+    important = models.CharField(max_length=100)
+    comment = models.CharField(max_length=200)
